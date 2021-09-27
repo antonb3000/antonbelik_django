@@ -1,0 +1,133 @@
+[
+{
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+        "question_text": "What's up?",
+        "pub_date": "2021-09-21T10:12:48.140Z"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 2,
+    "fields": {
+        "question_text": "What is the best pizza?",
+        "pub_date": "2021-09-21T10:41:23Z"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 3,
+    "fields": {
+        "question_text": "Who is funnier?",
+        "pub_date": "2021-09-21T10:59:22Z"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 4,
+    "fields": {
+        "question_text": "Will it rain tomorrow?",
+        "pub_date": "2021-09-21T13:52:32Z"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "choice_text": "Not much",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "choice_text": "The Sky",
+        "votes": 1
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 4,
+    "fields": {
+        "question": 2,
+        "choice_text": "Pepperoni",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 5,
+    "fields": {
+        "question": 2,
+        "choice_text": "Hawaii",
+        "votes": 1
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 6,
+    "fields": {
+        "question": 2,
+        "choice_text": "Opera Special",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 7,
+    "fields": {
+        "question": 3,
+        "choice_text": "Donald Duck",
+        "votes": 5
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 8,
+    "fields": {
+        "question": 3,
+        "choice_text": "Mickey Mouse",
+        "votes": 2
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 9,
+    "fields": {
+        "question": 3,
+        "choice_text": "Donald Trump",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 10,
+    "fields": {
+        "question": 4,
+        "choice_text": "Maybe",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 11,
+    "fields": {
+        "question": 4,
+        "choice_text": "Yes",
+        "votes": 0
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 12,
+    "fields": {
+        "question": 4,
+        "choice_text": "Definitely not",
+        "votes": 0
+    }
+}
+]
